@@ -1,0 +1,101 @@
+@font-face {
+    font-family: CascadiaCode;
+    src: url(font/CascadiaCode-Bold.otf);
+}
+
+body{
+    font-family: CascadiaCode;
+    background-color: #322947;
+}
+
+.nav-link{
+    width: 100px;
+    height: 50px;
+    color: #FEB27C;
+    background-color: #291E32;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.nav-link:hover{
+    color: #ff8a37;
+    background-color: #25192e;
+}
+
+.nav-item{
+    margin: 10px 20px 10px 0;
+}
+
+.navbar-toggler{
+    background-color: #FEB27C;
+    border-color: #ff8a37;
+}
+
+.navbar-toggler span{
+    color: white;
+}
+
+main{
+    margin-top: 50px;
+}
+
+main .text-name{
+    margin: 30px;
+    height: 80px;
+    width: 300px;
+    font-size: 40px;
+    background-color: #25192e;
+    border-radius: 20px;
+    text-align: center;
+}
+
+main h2{
+    text-align: center;
+    color: #FEB27C;
+}
+
+section{
+    max-width: 70vw;
+    min-width: 300px;
+    height: 350px;
+    padding-top: 25px;
+    margin-top: 50px;
+    margin: 50px auto;
+    color: #FEB27C;
+    background-color: #582a4c20;
+    border-radius: 30px;
+    border: 15px solid #312541;
+    outline: 15px solid #291E32;
+}
+
+section h1{
+    font-size: 60px;
+}
+
+section h4{
+    max-width: 670px;
+    text-align: center;
+}
+
+section .container a{
+    margin: 10px;
+    margin-top: 25px;
+    width: 60px;
+    height: 60px;
+    background-color: #291E32;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+section .container a:hover{
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+section .container a img{
+    width: 45px;
+    height: 45px;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+}
