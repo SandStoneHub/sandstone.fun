@@ -1,0 +1,73 @@
+.card{
+    color: #FEB27C;
+    border: none;
+    border-radius: 30px;
+    margin: 50px auto;
+}
+
+.danayasi-card{
+    background: url("/img/team/DanayasiFrame.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.kenyka-card{
+    background: url("/img/team/KenykaFrame.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.card-body h1, .card-body h4{
+    margin: 20px 0px 20px 0px;
+}
+
+.img-fluid{
+    width: 200px;
+}
+
+.card-img-top{
+    margin: auto;
+    margin-top: 50px;
+    width: 180px;
+    height: 180px;
+}
+
+section a{
+    margin-bottom: 50px;
+}
+
+.container a{
+    margin: 10px;
+    margin-top: 1px;
+    width: 60px;
+    height: 60px;
+    background-color: #291E32;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+.container a:hover{
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+.container a img{
+    width: 45px;
+    height: 45px;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (width < 768px) {
+    .card-body h1, .card-text, .card-body p{
+        text-align: center;
+    }
+
+    .card-body .nav-link{
+        margin: auto;
+    }
+
+    .img-fluid{
+        margin-top: 30px;
+    }
+}

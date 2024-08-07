@@ -1,0 +1,27 @@
+.card{
+    color: #FEB27C;
+    background: none;
+    border: none;
+}
+
+.card-body h1, .card-body h4{
+    margin: 20px 0px 20px 0px;
+}
+
+.img-fluid{
+    width: 200px;
+}
+
+@media screen and (width < 768px) {
+    .card-body h1, .card-text, .card-body p{
+        text-align: center;
+    }
+
+    .card-body .nav-link{
+        margin: auto;
+    }
+
+    .img-fluid{
+        margin-top: 30px;
+    }
+}
