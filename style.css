@@ -9,17 +9,18 @@ body{
 }
 
 .nav-link{
-    width: 100px;
+    width: 130px;
     height: 50px;
+    font-size: 20px;
     color: #FEB27C;
     background-color: #291E32;
     border-radius: 12px;
-    padding: 12px;
+    padding: 10px;
     text-align: center;
 }
 
 .nav-link:hover{
-    color: #ff8a37;
+    color: #E66A56;
     background-color: #25192e;
 }
 
@@ -29,7 +30,7 @@ body{
 
 .navbar-toggler{
     background-color: #FEB27C;
-    border-color: #ff8a37;
+    border-color: #E66A56;
 }
 
 .navbar-toggler span{
@@ -55,30 +56,31 @@ main h2{
     color: #FEB27C;
 }
 
-section{
-    max-width: 70vw;
-    min-width: 300px;
+.about{
+    max-width: 1000px;
+    min-width: 200px;
     height: 350px;
     padding-top: 25px;
-    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     margin: 50px auto;
     color: #FEB27C;
     background-color: #582a4c20;
     border-radius: 30px;
-    border: 15px solid #312541;
-    outline: 15px solid #291E32;
+    border: 15px solid #322947;
+    box-shadow: 0px 0px 0px 12px #25192e99 inset;
 }
 
-section h1{
+.about h1{
     font-size: 60px;
 }
 
-section h4{
+.about h4{
     max-width: 670px;
     text-align: center;
 }
 
-section .container a{
+.about .container a{
     margin: 10px;
     margin-top: 25px;
     width: 60px;
@@ -88,14 +90,59 @@ section .container a{
     transition: 0.5s;
 }
 
-section .container a:hover{
+.about .container a:hover{
     width: 65px;
     height: 65px;
     transition: 0.5s;
 }
 
-section .container a img{
+.about .container a img{
     width: 45px;
     height: 45px;
     filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+}
+
+.card{
+    color: #FEB27C;
+    background: none;
+    border: none;
+}
+
+.card-body h1, .card-body h4{
+    margin: 20px 0px 20px 0px;
+}
+
+.carousel-item img{
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.carousel-inner, .carousel-control-prev, .carousel-control-next{
+    margin-top: 20px;
+}
+
+footer{
+    border-radius: 20px 20px 0px 0px;
+    max-width: 10000px;
+    height: 16vh;
+    background-color: #1C1C1C;;
+}
+
+footer h3{
+    text-align: center;
+    padding-top: 40px;
+}
+
+@media screen and (width < 768px) {
+    .card-body h1, .card-text{
+        text-align: center;
+    }
+
+    .card-body .nav-link{
+        margin: auto;
+    }
+
+    .img-fluid{
+        margin-top: 30px;
+    }
 }
