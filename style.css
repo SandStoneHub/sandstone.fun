@@ -82,6 +82,11 @@ main h2{
     margin-top: 20px;
 }
 
+.alert svg{
+    width: 16px;
+    height: 16px;
+}
+
 @media screen and (width < 768px) {
     .card-body h1, .card-text{
         text-align: center;
